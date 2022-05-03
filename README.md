@@ -1,18 +1,29 @@
-# Community Support Office Hours - 2022 Agenda
+# community support office hours
 
-## First Meeting! May 18 
-**User Essentials Squad**
+## Who are we?
 
-We'd love to hear feedback about the format and topics that are most useful and how the community support squad can help! 
+The community support team helps the community via github and discourse community forums to offer support to our free and oss users. Many of the easy questions in the community get answered first. Users of more advanced features come to us with questions that are more difficult to answer. 
 
-**Community Forum Posts**
+## How can we help each other?
 
-- [Showing the value of a field in the graph but using the value of another field for colors in a Stat panel](https://community.grafana.com/t/showing-the-value-of-a-field-in-the-graph-but-using-the-value-of-another-field-for-colors-in-a-stat-panel/63990)
-  
-  **Summary**: I am trying to create a Stat panel while using Grafana 8.4.1 that shows the result of a field in the center of the panel but uses another field to color the panel.
-  
-  **Discussion**: 
-  
-  
-  
-- 
+Community feedback shows us how we can improve the user experience through documentation, bug fixes, usability improvements, feature requests, and give insight into use cases.
+
+We want to create a way for the community support squad and developers to share knowledge to benefit our users.
+
+## How does this meeting work? 
+
+The community support squad hosts an internal office hours zoom every week to discuss curated issues from github or the community forum.  They will share the agenda prior to the meeting so developers can review the topics in advance. 
+
+**Types of issues to discuss and partner on:** 
+- Tough issues where a user and support engineer could benefit from a developer’s knowledge to solve and learn
+- Highlight interesting use cases, bugs, themes, or feature requests
+
+**Meeting format:**
+- 30 minutes weekly
+- Each week, we'll invite one squad to attend and we will curate the issues in the agenda that are related to the [grafana team responsibilities](https://docs.google.com/spreadsheets/d/1ILr-NYAFapP52K9_wnp2aDjnBHxCnQeag57mW4_UUrw/edit#gid=623522083) for that squad - but anyone in any squad can join in with us!
+- We'll post the agenda two days in advance here in github
+
+
+## Get involved with the community
+
+- Check out our [discussion forums](https://community.grafana.com/)!
