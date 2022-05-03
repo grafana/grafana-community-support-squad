@@ -1,6 +1,6 @@
 # Community Support Office Hours - 2022 Agenda
 
-## First Meeting! April 27 
+## First Meeting! May 18 
 **User Essentials Squad**
 
 We'd love to hear feedback about the format and topics that are most useful and how the community support squad can help! 
