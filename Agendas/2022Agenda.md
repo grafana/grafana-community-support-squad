@@ -19,7 +19,7 @@ We'd love to hear feedback about the format and topics that are most useful and 
   
   https://community.grafana.com/t/manage-alerts-delete-modify-using-api-for-unified-alerting-interface/66285
   
-  **Summary**: Users are asking about how to manage Grafana 8 alerts with the API. We see our docs point to swagger.io - it's hard to know which APIs to use
+  **Summary**: Users are asking about how to manage Grafana 8 alerts with the API. We see our docs point to swagger.io - we get stuck knowing which APIs to use
   
   **Discussion**: 
   
