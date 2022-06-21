@@ -1,5 +1,33 @@
 # Community Support Office Hours - 2022 Agenda
 
+## June 22
+**User-essentials Squad**
+
+We'd love to hear feedback about the format and topics that are most useful and how the community support squad can help! We want to work through one or two posts live during this session. 
+
+**Community Forum Posts**
+
+- https://community.grafana.com/t/data-link-not-working-properly/67160
+  
+  **Summary**: 
+  
+I’m trying to use a data link to populate a different panel with a template variable. The template variable name is interface. I configured the data link in the following way.
+
+http://vlah.com:3000/d/BxN80iWnz/router-dashboard?orgId=1&var-interface=${__series.name}
+
+When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
+ 
+  **Discussion**: 
+  
+
+  
+
+**Topic Trends**
+
+- Top posts in user-essentials category: 
+  - Walk through of how to find the top posts in each category. User-essentials covers a lot of different categories, so we'll do a quick demo. 
+  
+
 ## First Meeting! June 15
 **Alerting Squad**
 
