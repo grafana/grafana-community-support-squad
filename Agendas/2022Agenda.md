@@ -8,19 +8,19 @@ We'd love to understand more about how data links work, these are two examples o
 
 - https://community.grafana.com/t/data-link-not-working-properly/67160
   
-  **Summary**: 
-  
-  I’m trying to use a data link to populate a different panel with a template variable. The template variable name is interface. I configured the data link in the following way.
+    **Summary**: 
 
-  http://vlah.com:3000/d/BxN80iWnz/router-dashboard?orgId=1&var-interface=${__series.name}
+    I’m trying to use a data link to populate a different panel with a template variable. The template variable name is interface. I configured the data link in the following way.
 
-  When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
+    http://vlah.com:3000/d/BxN80iWnz/router-dashboard?orgId=1&var-interface=${__series.name}
 
-  **Discussion**: 
-  
- - https://community.grafana.com/t/how-to-build-a-data-link-to-filter-current-dashboard-when-there-is-more-than-one-variable/60220/2 
-  
-  **Summary**:
+    When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
+
+    **Discussion**: 
+
+   - https://community.grafana.com/t/how-to-build-a-data-link-to-filter-current-dashboard-when-there-is-more-than-one-variable/60220/2 
+
+    **Summary**:
   
   One pie chart TransactionType with the data link with TransactionType will apply the filter properly on the variable TransactionType.
   Another pie chart GroupType with the data link with GroupType will apply the filter properly on the variable GroupType. BUT it will cancel any the previous filter applied.
