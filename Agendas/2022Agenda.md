@@ -1,24 +1,35 @@
 # Community Support Office Hours - 2022 Agenda
 
-## June 22
-**User-essentials Squad**
-
-We'd love to hear feedback about the format and topics that are most useful and how the community support squad can help! We want to work through one or two posts live during this session. 
+## June 22 - User-essentials Squad 
 
 **Community Forum Posts**
 
+We'd love to understand more about how data links work, these are two examples of the types of questions we see: 
+
 - https://community.grafana.com/t/data-link-not-working-properly/67160
   
-**Summary**: 
+  **Summary**: 
   
-I’m trying to use a data link to populate a different panel with a template variable. The template variable name is interface. I configured the data link in the following way.
+  I’m trying to use a data link to populate a different panel with a template variable. The template variable name is interface. I configured the data link in the following way.
 
-http://vlah.com:3000/d/BxN80iWnz/router-dashboard?orgId=1&var-interface=${__series.name}
+  http://vlah.com:3000/d/BxN80iWnz/router-dashboard?orgId=1&var-interface=${__series.name}
 
-When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
- 
+  When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
+
   **Discussion**: 
   
+ - https://community.grafana.com/t/how-to-build-a-data-link-to-filter-current-dashboard-when-there-is-more-than-one-variable/60220/2 
+  
+  **Summary**:
+  
+One pie chart TransactionType with the data link with TransactionType will apply the filter properly on the variable TransactionType.
+Another pie chart GroupType with the data link with GroupType will apply the filter properly on the variable GroupType. BUT it will cancel any the previous filter applied.
+
+That’s because a datalink as i’ve described above is recalling a link with the saved dashboard where no filter is aplied. Each time the data link is called it’s not adding to the existing filters but restarting from the saved version.
+
+How can we make it so the datalink apply the filter on top of the existing filter appled 
+  
+  **Discussion**:
 
   
 
