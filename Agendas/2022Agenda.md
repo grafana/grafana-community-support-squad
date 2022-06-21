@@ -22,12 +22,12 @@ We'd love to understand more about how data links work, these are two examples o
   
   **Summary**:
   
-One pie chart TransactionType with the data link with TransactionType will apply the filter properly on the variable TransactionType.
-Another pie chart GroupType with the data link with GroupType will apply the filter properly on the variable GroupType. BUT it will cancel any the previous filter applied.
+  One pie chart TransactionType with the data link with TransactionType will apply the filter properly on the variable TransactionType.
+  Another pie chart GroupType with the data link with GroupType will apply the filter properly on the variable GroupType. BUT it will cancel any the previous filter applied.
 
-That’s because a datalink as i’ve described above is recalling a link with the saved dashboard where no filter is aplied. Each time the data link is called it’s not adding to the existing filters but restarting from the saved version.
+  That’s because a datalink as i’ve described above is recalling a link with the saved dashboard where no filter is aplied. Each time the data link is called it’s not adding to the existing filters but restarting from the saved version.
 
-How can we make it so the datalink apply the filter on top of the existing filter appled 
+  How can we make it so the datalink apply the filter on top of the existing filter appled 
   
   **Discussion**:
 
