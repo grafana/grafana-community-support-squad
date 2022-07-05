@@ -34,7 +34,8 @@ We'd love to understand more about how data links work, these are two examples o
 **Topic Trends**
 
 - Top posts in user-essentials category: 
-  - Walk through of how to find the top posts in each category. User-essentials covers a lot of different categories, so we'll do a quick demo. 
+  - Walk through of how to find the top posts in each category. User-essentials covers a lot of different categories, so we'll do a quick demo.
+  - This post [How to hide zero or null values in Legend in Grafana 8](https://community.grafana.com/t/how-to-hide-zero-or-null-values-in-legend-in-grafana-8/54369) has 6.1k views the related GH Discussion has 200 votes.
 
 **Needs Investigation**
 
