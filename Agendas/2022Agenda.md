@@ -29,15 +29,16 @@ We'd love to understand more about how data links work, these are two examples o
 
   How can we make it so the datalink apply the filter on top of the existing filter appled 
   
-  **Discussion**:
-
-  
+  **Discussion**:  
 
 **Topic Trends**
 
 - Top posts in user-essentials category: 
   - Walk through of how to find the top posts in each category. User-essentials covers a lot of different categories, so we'll do a quick demo. 
-  
+
+**Needs Investigation**
+
+https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22needs+investigation%22+project%3Agrafana%2F78
 
 ## First Meeting! June 15
 **Alerting Squad**
