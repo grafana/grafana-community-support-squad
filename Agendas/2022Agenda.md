@@ -17,6 +17,8 @@ We'd love to understand more about how data links work, these are two examples o
     When I click on the data link, however, it populates the interface value with the name of the measurement in the query.
 
     **Discussion**: 
+    
+We walked through some steps on play.grafana.org to see how to isolate variables that we want to use in the data links. For example, the URL will have the variables listed: https://play.grafana.org/d/bIIJVo8nk/datalink-with-all_variables-and-time-range?orgId=1&var-app=fakesite&var-server=All&var-interval=1h&editPanel=1 we can use the URL try out different values to see the result in the dashboard.
 
    - https://community.grafana.com/t/how-to-build-a-data-link-to-filter-current-dashboard-when-there-is-more-than-one-variable/60220/2 
 
@@ -29,7 +31,9 @@ We'd love to understand more about how data links work, these are two examples o
 
   How can we make it so the datalink apply the filter on top of the existing filter appled 
   
-  **Discussion**:  
+  **Discussion**:
+  
+It seems like this user is trying to manually create drilldowns. They aren't supported as a feature yet, though there is lots of discussion about them. The conclusion is that it's not possible yet. 
 
 **Topic Trends**
 
