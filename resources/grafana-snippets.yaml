@@ -1,0 +1,178 @@
+# espanso match file
+# https://espanso.org/docs/
+
+# grafana snippets
+# by matt abrams (https://github.com/zuchka)
+
+matches:  
+  # link to stable alert api forum POST
+  - trigger: ":al-api-post"
+    replace: |
+              See this thread for using Grafana's newest stable Alerting API:
+              
+              https://community.grafana.com/t/alert-provisioning-the-newest-stable-api/68009?u=mattabrams
+
+  # link to stable alert api swagger docs
+  - trigger: ":al-api-docs"
+    replace: |
+              Here are the newest stable API endpoints for provisioning Grafana alerts:
+
+              https://editor.swagger.io/?url=https://raw.githubusercontent.com/grafana/grafana/main/pkg/services/ngalert/api/tooling/api.json
+
+  # ask to confirm alerting platform
+  - trigger: ":al-confirm"
+    replace: |
+              Can you confirm: are you using the new Grafana Alerting platform (first released in Grafana 8) or the legacy alerting platform? I should note that the legacy platform is no longer actively developed:
+
+              https://grafana.com/docs/grafana/next/alerting/migrating-alerts/
+
+  # legacy alerting is deprecated
+  - trigger: ":al-legacy-deprecated"
+    replace: | 
+              It looks like this issues is related to the legacy alerting platform, which is now deprecated. Have you considered using the new Unified Alerting platform in Grafana 9?
+
+              blog post: https://grafana.com/blog/2022/06/14/grafana-alerting-explore-our-latest-updates-in-grafana-9/
+              new docs: https://grafana.com/docs/grafana/latest/alerting/
+              how to migrate: https://grafana.com/docs/grafana/latest/alerting/migrating-alerts/ 
+
+  # Grafana 9 alerting what's new blog
+  - trigger: ":al-blog-9"
+    replace: | 
+              https://grafana.com/blog/2022/06/14/grafana-alerting-explore-our-latest-updates-in-grafana-9/
+
+  # suggest the built-in Prometheus {up} metric
+  - trigger: ":prom-up"
+    replace: |
+              Prometheus has a built-metric called `up{}` where every time it scrapes an endpoint, it returns 1 for up and 0 for down. 
+
+              https://prometheus.io/docs/concepts/jobs_instances/#automatically-generated-labels-and-time-series
+
+  # welcome new users in forum
+  - trigger: ":hi-forum"
+    replace: |
+              welcome to the :grafana: forum, @
+
+  # thank GH user for making issue
+  - trigger: ":hi-git"
+    replace: |
+              Thanks for creating this issue, @
+
+  # bar chart
+  - trigger: ":barchart"
+    replace: |
+              it looks like you might want to use the Bar Chart, which can use arbitrary strings on the x axis:
+
+              https://play.grafana.org/d/ktMs4D6Mk/5-bar-charts-and-pie-charts?orgId=1
+
+              See the docs for the data model that you will need to fit:
+              https://grafana.com/docs/grafana/latest/visualizations/bar-chart/
+
+  # ask to reproduce on play
+  - trigger: ":cx-play"
+    replace: |
+              do you think you could try and replicate this on our public sandbox, https://play.grafana.org? :pray:
+
+  # ask for raw request / response
+  - trigger: ":cx-raw"
+    replace: |
+              Can you [inspect your raw request and response](https://grafana.com/docs/grafana/latest/panels/inspect-panel/#view-raw-request-and-response-to-data-source) and then share it in a code-block?
+
+  # ask to make a GH issue
+  - trigger: ":cx-issue"
+    replace: |
+              This def sounds like it could be a bug. If you haven't already, could you make an issue in the Grafana repo? :+1: :grafana:
+
+              https://github.com/grafana/grafana/issues/new?assignees=&labels=type%3A+bug&template=1-bug_report.md
+
+  # suggest increasing log verbosity to debug
+  - trigger: ":cx-debug"
+    replace: |
+              try increasing [the verbosity of the Grafana server logs](https://grafana.com/docs/grafana/latest/administration/configuration/#level) to `debug` and note any errors. For printing to console, [set the console logs to `debug`](https://grafana.com/docs/grafana/latest/administration/configuration/#level-1) as well.  
+
+  # suggest using data tab in panel inspect
+  - trigger: ":cx-data"
+    replace: |  
+              Can you use the data tab inside [the Grafana Inspector panel](https://grafana.com/docs/grafana/next/panels/working-with-panels/navigate-inspector-panel/) to share your data?
+
+              https://grafana.com/docs/grafana/next/panels/working-with-panels/navigate-inspector-panel/
+
+  # chained variable docs + resources
+  - trigger: ":vars-chained"
+    replace: |
+              It sounds like you want to use chained variables. Here are some useful starting points and example dashboards in our public sandbox :+1: 
+
+              - [example dashboard](https://play.grafana.org/d/000000056/templated-dynamic-dashboard?orgId=1&var-app=country&var-server=All&var-interval=1h)
+              - [chained variables docs](https://grafana.com/docs/grafana/latest/variables/variable-types/chained-variables/)
+              - [variables](https://grafana.com/docs/grafana/latest/variables/)
+              - [variable examples](https://grafana.com/docs/grafana/latest/variables/variable-examples/)
+
+  # templating docs
+  - trigger: ":vars-docs"
+    replace: |
+              Here are [the docs on template variables](https://grafana.com/docs/grafana/latest/variables/). And here is a list of [good examples on play.grafana.org that use template variables](https://grafana.com/docs/grafana/latest/variables/variable-examples/). You can inspect each dashboard to see just how the variables are constructed.
+
+  # how to use regex-based value-mapping
+  - trigger: ":vm-regex"
+    replace: |
+              This should be possible using regex-based value mappings:
+
+              https://community.grafana.com/t/how-to-rename-values-in-grafana-using-regex-based-value-mapping/53616/4
+    
+  # value-mapping docs
+  - trigger: ":vm-docs"
+    replace: |
+              Here are [the docs for Grafana's Value Mapping feature](https://grafana.com/docs/grafana/next/panels/format-data/about-value-mapping/)
+
+  # zabbix help
+  - trigger: ":zabbix"
+    replace: |
+              I would see if you can find any related issues in the Zabbix plugin repo (which is a third-party data source plugin)
+
+              https://github.com/alexanderzobnin/grafana-zabbix
+
+              You might also consider checking the Zabbix category in this forum:
+
+              https://community.grafana.com/c/support/zabbix/58
+
+  # suggest the state timeline / status history panels
+  - trigger: ":status-history-state-timeline"
+    replace: |              
+              Have you explored the state timeline panel and the status history panel? I think one or the other might be well suited to this...
+
+              - [check out these sample panels on play.grafana](https://play.grafana.org/d/qD-rVv6Mz/6-state-timeline-and-status-history?orgId=1)
+              - [the State Timeline Panel docs](https://grafana.com/docs/grafana/v8.5/visualizations/state-timeline/)
+              - [the Status History Panel docs](https://grafana.com/docs/grafana/v8.5/visualizations/status-history/)
+
+  # kick back to user to submit more info
+  - trigger: ":needs-more-info"
+    replace: |   
+              - Please review the submission template and include more details:
+
+              * What Grafana version and what operating system are you using?
+
+              * **What** are you trying to achieve?
+
+              * **How** are you trying to achieve it?
+
+              * What happened?
+
+              * What did you **expect** to happen?
+
+              * Can you copy/paste the configuration(s) that you are having problems with?
+
+              * Did you receive any errors in the Grafana UI or in related logs? If so, please tell us **exactly** what they were.
+
+              * Did you follow any online instructions? If so, what is the URL?
+
+              And please remember the Grafana Forum's 3 BEST PRACTICES:
+
+              1. Please post inside a subcategory
+              2. For questions and advice, please try to use the template below
+              3. If you post a question and someone solves it, please mark is as SOLVED
+
+              ~ THANK YOU!!
+
+  # Grafana 7 is EOL. Upgrade.
+  - trigger: ":upgrade-grafana-7"
+    replace: | 
+              Grafana 7 is EOL. We don't really support it anymore. v9 is way more feature rich. Highly recommend you upgrade :+1:
