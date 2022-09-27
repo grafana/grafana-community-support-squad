@@ -12,7 +12,7 @@
 # how to use:
 # 1) open a terminal app. make sure you have docker installed 
 # 2) add these lines to your terminal profile (zshrc, bashrc, etc) and source the file
-# 3) run start_plugin_dev with no args to run latest version on port 3000
+# 3) type start_grafana_dev with no args and press enter. this will run the latest version on port 3000
 # 4) pass in a version number as first arg and optionally a specific port as a second arg:
 #    example: `start_grafana_dev 9.0.1 3001` will run Grafana v. 9.0.1 on port 3001
 
@@ -34,7 +34,7 @@ start_grafana_dev() {
 # how to use:
 # 1) open a terminal app. make sure you have docker installed
 # 2) add these lines to your terminal profile (zshrc, bashrc, etc) and source the file
-# 3) run gflog 'your-string-here'. Example typing gflog 'template variable' will return every changelog item that includes the string 'template variable'
+# 3) enter gflog 'your-string-here' and press enter. For example: type: gflog 'template variable'. it will return every changelog item that includes the string 'template variable'
 
 gflog() {
   curl -fsSL https://raw.githubusercontent.com/grafana/grafana/main/CHANGELOG.md | \
