@@ -176,3 +176,31 @@ matches:
   - trigger: ":upgrade-grafana-7"
     replace: | 
               Grafana 7 is EOL. We don't really support it anymore. v9 is way more feature rich. Highly recommend you upgrade :+1:
+
+  # send feature requests to GH Discussions
+  - trigger: ":feature-requests-to-discussions"
+    replace: | 
+              for feature requests to Grafana OSS we ask the community to make a post here, in GitHub Discussions. It can then get upvoted by fellow users. Devs use this to gauge interest in new features:
+
+              I would check and make sure someone hasn't already started a thread:
+
+              https://github.com/grafana/grafana/discussions
+
+  # suggest using the transformations inside query editor
+  - trigger: ":try-transformations"
+    replace: | 
+              It sounds like it would be best to filter / reduce / pivot / or otherwise transform the data on the DB side by adjusting your SQL query. But, you should also check out using Grafana's built-in transformations, which can do a lot of powerful sql-like transforms. Just remember that all those get done on the frontend side so they are not nearly as performant :+1: 
+
+              https://grafana.com/docs/grafana/latest/panels/transform-data/
+
+  # suggest using the timeshift feature in query editor
+  - trigger: ":try-timeshift"
+    replace: | 
+              I don't know if you what you want is possible, but I wanted to make sure that you have explored the timeshift feature inside each panel editor. This lets you shift the view on a per panel basis. Might get you partially unblocked?
+
+              https://grafana.com/docs/grafana/v9.0/dashboards/time-range-controls/#panel-time-overrides-and-timeshift
+
+  # suggestion for the classic Influx + "I want to display data on a per-day basis"
+  - trigger: ":show-influx-data-or-power-per-day"
+    replace: | 
+              There are a TON of power-consumption-per-day topics on this forum. I would do a search over the past few years. There are lots of sample queries on good threads with input from advanced influx users. They are all a little different depending on the flavor of your setup and desired outcome, but I bet you'll find some useful stuff if you go digging :+1:
