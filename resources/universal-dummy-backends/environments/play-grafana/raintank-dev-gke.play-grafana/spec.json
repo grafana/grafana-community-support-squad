@@ -1,0 +1,18 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "labels": {
+      "app": "play-grafana",
+      "cluster_name": "raintank-dev-gke",
+      "team": "grafana_community",
+      "fluxSlackChannel": "#grafana-community-squad"
+    },
+    "name": "raintank-dev-gke.play-grafana"
+  },
+  "spec": {
+    "apiServer": "https://35.224.130.213",
+    "injectLabels": true,
+    "namespace": "play-grafana"
+  }
+}
