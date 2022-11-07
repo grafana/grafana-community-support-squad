@@ -4,9 +4,11 @@
 
 **Community Forum Posts**
 
+**Dicussion Item #1**
+
 We would like to learn and discuss about the frequent issues occurs with the Image Rendering while doing an update or upgrade either in a local or containerized environment
 
-https://community.grafana.com/t/certificate-error-with-renderer-docker-image-and-https/74948/9
+- https://community.grafana.com/t/certificate-error-with-renderer-docker-image-and-https/74948/9
 
 **Summary**: 
 
@@ -15,6 +17,31 @@ In the above case, the user reports an issue that the SSL certificates are not w
 We have already suggest some of the ENV Variables to the customer from previous posts and issues but it does help him.
 
 **Discussion**: 
+
+TBD
+
+**Dicussion Item #2**
+
+We would like to discuss and understand better as how to do the import and export of Dashboards correctly.
+
+- https://community.grafana.com/t/how-to-import-export-dashboards-from-a-enviroment-to-another/60600
+
+
+**Summary**: 
+
+We see many post (even got asked questions internally) that importing/exporting a Dashboard via JSON does not get the exact same dashboard as expected (even the Datasource is correctly configured).
+
+The commom sceanrios are for e.g.
+
+- Importing / Exporting dashboard from 1 Grafana server to Another (running same versions)
+- Importing / Exporting dashboard from 1 Grafana server to Another (running different versions)
+- Importing / Exporting dashboard from 1 Grafana server to Another (same version but different env. e.g. local to containerized / vice-versa)
+- Importing / Exporting dashboard from 1 Grafana server to Another (from Grafana OSS to Enterprise or Cloud / vice-versa)
+
+
+
+**Discussion**: 
+
 
 TBD
 
