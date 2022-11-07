@@ -1,5 +1,25 @@
 # Community Support Office Hours - 2022 Agenda
 
+## November 9 - Backend Squad
+
+**Community Forum Posts**
+
+We would like to learn and discuss about the frequent issues occurs with the Image Rendering while doing an update or upgrade either in a local or containerized environment
+
+https://community.grafana.com/t/certificate-error-with-renderer-docker-image-and-https/74948/9
+
+**Summary**: 
+
+In the above case, the user reports an issue that the SSL certificates are not working after performing an update. Checking the logs seems to indicate an issue with the handshake while calling the remote rendering engine.
+
+We have already suggest some of the ENV Variables to the customer from previous posts and issues but it does help him.
+
+**Discussion**: 
+
+TBD
+
+
+
 ## June 22 - User-essentials Squad 
 
 **Community Forum Posts**
