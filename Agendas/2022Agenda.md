@@ -33,10 +33,10 @@ We see many post (even got asked questions internally) that importing/exporting 
 
 The commom sceanrios are for e.g.
 
-- Importing / Exporting dashboard from 1 Grafana server to Another (running same versions)
-- Importing / Exporting dashboard from 1 Grafana server to Another (running different versions)
-- Importing / Exporting dashboard from 1 Grafana server to Another (same version but different env. e.g. local to containerized / vice-versa)
-- Importing / Exporting dashboard from 1 Grafana server to Another (from Grafana OSS to Enterprise or Cloud / vice-versa)
+- Importing / Exporting dashboard from one Grafana server to Another (running same versions)
+- Importing / Exporting dashboard from one Grafana server to Another (running different versions)
+- Importing / Exporting dashboard from one Grafana server to Another (same version but different env. e.g. local to containerized / vice-versa)
+- Importing / Exporting dashboard from one Grafana server to Another (from Grafana OSS to Enterprise or Cloud / vice-versa)
 
 
 
