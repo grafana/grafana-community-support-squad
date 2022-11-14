@@ -34,9 +34,9 @@ The community support squad memebers works on different day to day tasks and it 
 <summary>Topics for Q4 2022</summary>
 
 
-| Topic No.| Status         | Community Post or GH issue | Link                                       | Status         | Additional Notes |
+| Topic No.| Status         | Community Post or GH issue | Link                                       | Discussed         | Additional Notes |
 | :---     |     :---:      |          :---:             | :---:                                      |     :---:      |     :---:      |
-| 1  |<ul><li>- [x] Solved</li><li></li></ul>| git status                 | <a href="https://hello.ca">link text</a>   | git status     | git status     |
-| 2  | git diff       | git diff                   | git diff                                   | git diff       | git status     |
+| 1  |<ul><li>- [x] Solved</li><li></li></ul>| git status                 | <a href="https://hello.ca">link text</a>   | :white_check_mark     | git status     |
+| 2  | git diff       | git diff                   | git diff                                   | git diff       | [] 739     |
   
 </details>
