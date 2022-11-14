@@ -36,7 +36,7 @@ The community support squad memebers works on different day to day tasks and it 
 
 | Topic No.| Status         | Community Post or GH issue | Subject      | Status         | Additional Notes |
 | :---     |     :---:      |          :---:             | :---:        |     :---:      |     :---:      |
-| 1        | - [x] Solved    | git status                 | git status   | git status     | git status     |
+| 1        |- [x] Solved    | git status                 | git status   | git status     | git status     |
 | 2        | git diff       | git diff                   | git diff     | git diff       | git status     |
   
 </details>
