@@ -34,9 +34,19 @@ The community support squad memebers works on different day to day tasks and it 
 <summary>Topics for Q4 2022</summary>
 
 
-| Topic No.| Status         | Community Post or GH issue | Link                                       | Discussed         | Additional Notes |
-| :---     |     :---:      |          :---:             | :---:                                      |     :---:      |     :---:      |
-| 1  |<ul><li>- [x] Solved</li><li></li></ul>| git status                 | <a href="https://hello.ca">link text</a>   | :white_check_mark     | git status     |
-| 2  | git diff       | git diff                   | git diff                                   | git diff       | [] 739     |
+| No.| Community post or GH issue| Owner | Solved  | Link | Is discussed | Additional Notes |
+|:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
+| 1 |Community Post|:heavy_check_mark:|Usman|<a href="https://hello.ca">link text</a>|$\color{green}{Yes}$| This one was really good for discussion|
+| 2 |GitHub iissue |:x:               |Usman|<a href="https://hello.ca">link text</a>|$${\color{red}No}$$	| This one is not easy need more time|
+| 3 |Community Post|:heavy_check_mark:|Melori|<a href="https://hello.ca">link text</a>|$\color{orange}{Pending}$| Pending for discussion|
+| 4 |  
+| 5 | 
+| 6 |  
+| 7 |  
+| 8 |  
+| 9 |
+| 10|   
+
   
 </details>
+
