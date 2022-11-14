@@ -34,9 +34,9 @@ The community support squad memebers works on different day to day tasks and it 
 <summary>Topics for Q4 2022</summary>
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Topic No.| Status         | Community Post or GH issue | Subject      | Status         | Additional Notes |
+| :---     |     :---:      |          :---:             | :---:        |     :---:      |     :---:      |
+| 1        | - [x] Solved    | git status                 | git status   | git status     | git status     |
+| 2        | git diff       | git diff                   | git diff     | git diff       | git status     |
   
 </details>
