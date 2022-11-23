@@ -45,6 +45,13 @@ The commom sceanrios are for e.g.
 
 TBD
 
+**What Backend would to know more from Community Support Squad**
+What Backend Team like to learn, see, feeback in the community from us?
+
+Share some ideas (Brainstroming)
+
+TBD during session
+
 
 
 ## June 22 - User-essentials Squad 
