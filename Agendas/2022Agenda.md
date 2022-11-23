@@ -18,7 +18,7 @@ We have already suggest some of the ENV Variables to the customer from previous 
 
 **Discussion**: 
 
-TBD
+The backend squad noticed that the docker compose file had the GF_RENDERING_IGNORE_HTTPS_ERRORS=true environment variable settings applied for the grafana container but not for the image renderer one. They suggested to try moving those settings to the renderer section. 
 
 **Dicussion Item #2**
 
@@ -42,21 +42,23 @@ The commom sceanrios are for e.g.
 
 **Discussion**: 
 
+Current options for duplicating environments are provisioning, API scripts like the one in the post, or the grizzly tool. Long-term the as-code squad will be working on other ways to accomplish this. 
 
-TBD
+Note that provisioned dashboard edits are only stored local to the grafana instance in the database and are not sync'd across environments. 
+
+When editing JSON in dashboards or panels, the elements are not ordered. This is expected because of the way that javascript works. They recommended using `jq` to help working with JSON. There is a potential future project that would involve creating a schema for dashboards to make the format more predictable and to inform the database about the structure and potentially improve error messages. 
 
 **What Backend would to know more from Community Support Squad**
 
 What Backend Team like to learn, see, feeback in the community from us?
 
-Docker vulnerabilities and image updates - how do you decide when to update the image?
+  - They are interested to hear more about API use cases - we'll try to gather more information about that for future sessions. 
 
 Upcoming changes in Grafana 10 we should know about?
+  - Often there are backend changes that aren't visible to users but would be helpful for community support to understand if related issues show up in forum or triage issues
 
-Share some ideas (Brainstroming)
-
-TBD during session
-
+Share some ideas (Brainstroming):
+ - Trying out sample processes or specific how-to in the forum. For example, how to back up the sqlite database or how to upgrade between multiple major versions. 
 
 
 ## June 22 - User-essentials Squad 
