@@ -49,6 +49,10 @@ TBD
 
 What Backend Team like to learn, see, feeback in the community from us?
 
+Docker vulnerabilities and image updates - how do you decide when to update the image?
+
+Upcoming changes in Grafana 10 we should know about?
+
 Share some ideas (Brainstroming)
 
 TBD during session
