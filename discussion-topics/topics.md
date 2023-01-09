@@ -2,13 +2,13 @@
 
 ## Who are we?
 
-The community support team helps the community via github and discourse community forums to offer support to our free and oss users. Many of the easy questions in the community get answered first. Users of more advanced features come to us with questions that are more difficult to answer. 
+The community support squad helps the community via [Github](https://github.com/grafana/grafana/) and the Discourse [community forums](https://community.grafana.com/) to offer support to our free and OSS users. Many of the easy questions in the community get answered first. Users of more advanced features come to us with questions that are more difficult to answer. 
 
 ## How can we help each other?
 
 Community feedback shows us how we can improve the user experience through documentation, bug fixes, usability improvements, feature requests, and give insight into use cases.
 
-We want to create a way for the community support squad and developers to share knowledge to benefit our users.
+We want to create a way for the community support squad to share the knowledge and benefit each other.
 
 ## How does this meeting work? 
 
@@ -18,23 +18,24 @@ The community support squad memebers works on different day to day tasks and it 
 - A community post or GitHub issue which needs to be discussed together
 - Someone new you have learned (e.g. a tool, script, command etc.) and want to share the knowledge with the team.
 
-**Types of issues to discuss and partner on:** 
-- Tough issues where a user and support engineer could benefit from a developer’s knowledge to solve and learn
-- Highlight interesting use cases, bugs, themes, or feature requests
-
-**Meeting format:**
-- 30 to 60 minutes weekly
+**Meeting/Workshop format:**
+- 30 to 60 minutes weekly (or bi-weekly)
 - Complete the table below to provide the list of topics you want to bring for discussion
-- We'll post the agenda two days in advance here in github
+- Create a small presentation document to present your topic (notihng fancy)
+
+
+## Recording of Session 
+These meeting/workshop sessions will be recorded so that can be used by the squad for reference and view later if not able to join it.
+
 
 
 ## Discssion topics
 
 <details open>
-<summary>Topics for year 2022</summary>
+<summary>Topics for year 2023</summary>
 
 <details open>
-<summary>November</summary>
+<summary>January</summary>
 
 | No.| Community post or GH issue| Solved | Owner  | Link | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
@@ -51,7 +52,7 @@ The community support squad memebers works on different day to day tasks and it 
 </details>
 <details open>
 
-<summary>December</summary>
+<summary>Febuary</summary>
 
 | No.| Community post or GH issue| Solved | Owner  | Link | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
