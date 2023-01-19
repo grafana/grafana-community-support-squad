@@ -37,9 +37,9 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 <details open>
 <summary>January</summary>
 
-| No.| Community post or GH issue| Solved | Owner  | Link | Is discussed | Additional Notes |
+| No.| Community post or GH issue| Solved | Owner  | Link to Recording | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
-| 1 |Community Post|:heavy_check_mark:|Usman|<a href="https://hello.ca">link text</a>|$\color{green}{Yes}$| This one was really good for discussion|
+| 1 |Annotations|TBD|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| Pending for discussion|
 | 2 |GitHub iissue |:x:               |Usman|<a href="https://hello.ca">link text</a>|$${\color{red}No}$$	| This one is not easy need more time|
 | 3 |Community Post|:heavy_check_mark:|Melori|<a href="https://hello.ca">link text</a>|$\color{orange}{Pending}$| Pending for discussion|
 | 4 |  
