@@ -1,4 +1,4 @@
-# Community Support Squad Discussion Topics (DRAFT)
+# Community Support Squad Discussion Topics
 
 ## Who are we?
 
