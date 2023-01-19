@@ -35,13 +35,13 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 <summary>Topics for year 2023</summary>
 
 <details open>
-<summary>January</summary>
+<summary>Febuary</summary>
 
 | No.| Topic Title| Date | Owner  | Link to Recording | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
 | 1 |Annotations|01-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| Pending for discussion|
-| 2 |GitHub iissue |:x:               |Usman|<a href="https://hello.ca">link text</a>|$${\color{red}No}$$	| This one is not easy need more time|
-| 3 |Community Post|:heavy_check_mark:|Melori|<a href="https://hello.ca">link text</a>|$\color{orange}{Pending}$| Pending for discussion|
+| 2 |TBD |:x:               |x|x|x	| x|
+| 3 |TBD|x|x|x|x| x|
 | 4 |  
 | 5 | 
 | 6 |  
@@ -51,8 +51,8 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 | 10|   
 </details>
 <details open>
-
-<summary>Febuary</summary>
+<!---
+<summary>March</summary>
 
 | No.| Community post or GH issue| Solved | Owner  | Link | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
@@ -67,7 +67,8 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 | 9 |
 | 10|   
 </details>  
-  
+
+  -->
   
 
 </details>
