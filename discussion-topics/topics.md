@@ -39,7 +39,7 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 
 | No.| Topic Title| Date | Owner  | Link to Recording | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
-| 1 |Annotations|01-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| Pending for discussion|
+| 1 |Annotations|01-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| 1- How to create Annotation? <br /> 2- How to create Annotation variable|
 | 2 |TBD |:x:               |x|x|x	| x|
 | 3 |TBD|x|x|x|x| x|
 | 4 |  
@@ -56,7 +56,7 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 
 | No.| Community post or GH issue| Solved | Owner  | Link | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
-| 1 |Community Post|:heavy_check_mark:|Usman|<a href="https://hello.ca">link text</a>|$\color{green}{Yes}$| This one was really good for discussion|
+| 1 |Community Post|:heavy_check_mark:|Usman|<a href="https://hello.ca">link text</a>|$\color{green}{Yes}$| Add notes if you need for e.g. n|
 | 2 |GitHub iissue |:x:               |Usman|<a href="https://hello.ca">link text</a>|$${\color{red}No}$$	| This one is not easy need more time|
 | 3 |Community Post|:heavy_check_mark:|Melori|<a href="https://hello.ca">link text</a>|$\color{orange}{Pending}$| Pending for discussion|
 | 4 |  
