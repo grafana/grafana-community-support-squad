@@ -3,6 +3,12 @@
 
 The official triage documentation can be found in [ISSUE_TRIAGE](https://github.com/grafana/grafana/blob/main/ISSUE_TRIAGE.md). These are just some tips that can help you follow those guidelines, and thus triage issues more efficiently. 
 
+**Table of contents**
+- [Scan for issues created by Grafanista](#scan-for-issues-created-by-grafanistas)
+- [Identify when an issue should be pass to the devs](#identify-when-an-issue-should-be-pass-to-the-devs)
+- [Use the CHANGELOG to scan for the source of an issue](#use-the-changelog-to-scan-for-the-source-of-an-issue)
+___
+
 ### Scan for issues created by Grafanistas
 Even though we try to remind everyone in Grafana Labs to label their issues when they create them, not everyone remembers this every time. Issues created by Grafananistas are usually easier to triage and can be quickly redirected to the squads, so scanning for them can be a way to quickly reduce the amount of issues in triage. 
 
