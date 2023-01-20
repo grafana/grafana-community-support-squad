@@ -21,5 +21,5 @@
 **Summary**: 
 
 
-**Discussion #2 **: 
+**Discussion #2 **
 
