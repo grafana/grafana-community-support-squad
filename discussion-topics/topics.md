@@ -39,7 +39,7 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 
 | No.| Topic Title| Date | Owner  | Link to Recording | Is discussed | Additional Notes |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
-| 1 |Annotations|01-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| 1- How to create Annotation? <br /> 2- How to create Annotation variable|
+| 1 |Annotations|01-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| 1- How to create Annotation? <br /> 2- How to create Annotation variable| 3- In which viz can you use annotations? <br /> | 4- What's the diff between dashboard/viz and alerting annotations? <br />
 | 2 |TBD |:x:               |x|x|x	| x|
 | 3 |TBD|x|x|x|x| x|
 | 4 |  
