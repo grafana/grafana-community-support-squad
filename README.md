@@ -1,4 +1,4 @@
-# community support office hours
+# community support squad
 
 ## Who are we?
 
@@ -10,7 +10,7 @@ Community feedback shows us how we can improve the user experience through docum
 
 We want to create a way for the community support squad and developers to share knowledge to benefit our users.
 
-## How does this meeting work? 
+## How do office hours meetings work? 
 
 The community support squad hosts an internal office hours zoom every week to discuss curated issues from github or the community forum.  They will share the agenda prior to the meeting so developers can review the topics in advance. 
 
