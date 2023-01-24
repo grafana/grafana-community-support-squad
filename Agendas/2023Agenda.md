@@ -17,9 +17,20 @@
 
 **Dicussion #1**
 
+We get really confused about data links. We have a general understanding of how they work, but they can be time consuming to test when we see triage issues. Can you tell us more about this feature? 
+
+[Glue: Add various data links to test-datasource](https://github.com/grafana/grafana/issues/57449)
+
 
 **Summary**: 
 
 
 **Discussion #2**
+
+https://community.grafana.com/t/can-i-pass-the-datasource-to-another-dashboard-in-a-datalink/76946/5 
+
+>I would really like to have one set of dashboards and have the user choose the environment (the datasource) on the top level dashboard and have that value >passed to the “drill down” dashboards. 
+
+This is talking about dashboard datalinks, but I'm wondering if this is something that might become easier with https://github.com/grafana/grafana/issues/55236 
+
 
