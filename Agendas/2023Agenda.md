@@ -11,7 +11,11 @@
 
 **Can you tell us more about . . .**
 
-* What is Grafana glue? 
+* Community Support to Explore Squad: What is Grafana glue? 
+
+* Pauric will demo the new user how-to page
+
+* Explore squad to Community support: What are some hot button topics (such as Datalinks) that we can add to our how-to page?
 
 **Community Forum Posts**
 
