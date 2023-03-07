@@ -37,9 +37,9 @@ These meeting/workshop sessions will be recorded so that can be used by the squa
 <details open>
 <summary>Febuary</summary>
 
-| No.| Topic Title| Date | Owner  | Link to Recording | Is discussed | Topcs for discussions |
+| No.| Topic Title| Date | Owner  | Link to Recording | Is discussed | Topics for discussions |
 |:---|  :---                     | :---   | :---:|     :---:    |     :---:         | :--- |
-| 1 |Annotations|08-Feb-2023|Usman|<a href="https://hello.ca">Currently not avail</a>|$\color{orange}{Pending}$| <a href="https://docs.google.com/document/d/1m1q54J6vfH-IHaAChlfTwU7R1p3Yhg-t1RcvMy-Twmc/edit?usp=share_link">Link to file</a>
+| 1 |Annotations|08-Feb-2023|Usman|<a href="https://drive.google.com/drive/folders/1bH8mufZq15_8PJDS5GFSJKq5_SPJ1lZ7">Available :heavy_check_mark:</a>|:ballot_box_with_check: one sub topic remains | <a href="https://docs.google.com/document/d/1m1q54J6vfH-IHaAChlfTwU7R1p3Yhg-t1RcvMy-Twmc/edit?usp=share_link">Link to file</a>
 | 2 |TBD |:x:               |x|x|x	| x|
 | 3 |TBD|x|x|x|x| x|
 | 4 |  
